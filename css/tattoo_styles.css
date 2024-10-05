@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#gallery .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery .gallery-container img {
+    max-width: 200px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Floating Button Styles */
+.floating-button {
+    position: fixed; /* Keeps the button in the same position while scrolling */
+    bottom: 20px; /* Distance from the bottom of the screen */
+    right: 20px; /* Distance from the right side of the screen */
+    background-color: #ffcc00; /* Customize button color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 15px 20px; /* Button padding */
+    border-radius: 50px; /* Makes the button rounded */
+    font-size: 16px; /* Adjust font size */
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+}
+
+.floating-button:hover {
+    background-color: #ff9900; /* Change background color on hover */
+}
