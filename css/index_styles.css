@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-size: 36px;
+    background-color: #464646;
+    color: #c29d5d;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#tattoo {
+    font-size: 36px;
+    background-image: url('../assets/images/tattoo_bg_1.jpg');  /* Path to your image */
+    background-size: cover;    /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    padding: 50px;
+    text-align: center;
+}
+
+#art {
+    font-size: 36px;
+    background-image: url('../assets/images/tattoo_bg_2.jpg');  /* Path to your image */
+    background-size: cover;    /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #464646;
+    color: #c29d5d;
+}
+
+/* Social Icons Styles */
+.social-icons {
+    margin-top: 15px; /* Space between the title and icons */
+}
+
+.social-icons a {
+    color: white; /* Change to your desired color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between icons */
+    font-size: 24px; /* Icon size */
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* Change color on hover (you can customize this) */
+}
