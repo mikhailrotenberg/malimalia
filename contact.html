@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Koroleva Tattoo</title>
+    <title>Maria Koroleva Contact Form</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Maria Koroleva - Contact Form</h1>
-        <nav>
-            <ul>
-                <li><a href="#back">Back</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="header"></div>
+    <section id="contact">
+    <h2>Contact Form</h2>
+        <p>If you'd like to book a session or have any questions, feel free to reach out!</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>If you'd like to book a session or have any questions, feel free to reach out!</p>
-    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required></textarea><br><br>
-
-        <input type="submit" value="Send">
-    </form>
-</section>
-<footer>
-    <p>&copy; 2024 Maria Koroleva. All rights reserved.</p>ß
-</footer>
-
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <div id="footer"></div>
 </body>
+
+<script>
+    // Load header
+    fetch('commons/header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+
+    // Load footer
+    fetch('commons/footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+</script>
 </html>
