@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    font-size: 36px;
+    font-size:36px;
     background-color: #464646;
     color: #c29d5d;
     padding: 0.1rem 0;
@@ -23,8 +23,32 @@ header {
     text-align: center;
 }
 
+/* Styles for screens smaller than 768px (tablets and mobile phones) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header {
+        font-size: 24px;
+    }
+}
+
+/* Styles for screens smaller than 480px (small mobile phones) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    header {
+        font-size: 18px;
+    }
+}
+
 .custom-heading {
-    font-size: 76px;
+    font-size: 60px;
     color: #c29d5d;
     margin-top: 25px;
     margin-bottom: 5px;
