@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Koroleva Contact Form</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -30,12 +30,12 @@
 
 <script>
     // Load header
-    fetch('commons/header.html')
+    fetch('./commons/header.html')
         .then(response => response.text())
         .then(data => document.getElementById('header').innerHTML = data);
 
     // Load footer
-    fetch('commons/footer.html')
+    fetch('./commons/footer.html')
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
