@@ -24,12 +24,12 @@
 <a href="../contact.html" class="floating-button" target="_blank"></a> <!-- Opens in new tab -->
 <script>
     // Load header
-    fetch('../commons/header.html')
+    fetch('./commons/header.html')
         .then(response => response.text())
         .then(data => document.getElementById('header').innerHTML = data);
 
     // Load footer
-    fetch('../commons/footer.html')
+    fetch('./commons/footer.html')
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
