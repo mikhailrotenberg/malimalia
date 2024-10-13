@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="images" href="../assets/images/tattoo/">
+    <script src="../assets/scripts/carousel.js"></script>
 </head>
 
 <body>
     <div id="header"></div>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="image1.jpg" class="carousel-slide" alt="Image 1">
+                <img src="image2.jpg" class="carousel-slide" alt="Image 2">
+                <img src="image3.jpg" class="carousel-slide" alt="Image 3">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
     <section id="about">
         <h2>About Me</h2>
         <p>Hello! I'm Maria Koroleva, a passionate tattoo artist with over 10 years of experience.</p>
     </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-container">
-            <img src="tattoo1.jpg" alt="Tattoo 1">
-            <img src="tattoo2.jpg" alt="Tattoo 2">
-            <img src="tattoo3.jpg" alt="Tattoo 3">
-            <!-- Add more images as needed -->
-        </div>
-    </section>
     <div id="footer"></div>
+    <a href="../contact.html" class="floating-button" target="_blank"></a> <!-- Opens in new tab -->
 </body>
 
 <script>
@@ -40,5 +45,4 @@
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
-<a href="../contact.html" class="floating-button" target="_blank">Contact</a> <!-- Opens in new tab -->
 </html>

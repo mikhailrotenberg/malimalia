@@ -1,4 +1,3 @@
-
 /* ------------------------------------------- Common style ------------------------------------------- */
 /*
 color: #1d1d1b; Black
@@ -36,6 +35,12 @@ header {
     color: #c29d5d;
 }
 
+#constraction {
+    font-size: 36px;
+    text-align: center;
+    color: #1d1d1b;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -58,8 +63,8 @@ footer {
     bottom: 20px;    /* Position from the bottom of the screen */
     right: 20px;     /* Position from the right side of the screen */
     background-color:#c29d5d;
-    color: #fdefe7;
-    border: none;
+    color: #c29d5d;
+    border: 2px;
     padding: 100px 100px;
     border-radius: 100px;
     cursor: pointer;
@@ -110,7 +115,6 @@ nav ul li a:hover {
 }
 
 /* ------------------------------------------- Index page style ------------------------------------------- */
-
 #tattoo {
     font-size: 36px;
     background-image: url('../assets/images/common/tattoo_bg_2.jpg');  /* Path to your image */
@@ -136,26 +140,62 @@ nav ul li a:hover {
 }
 
 /* ------------------------------------------- Tattoo page style ------------------------------------------- */
-
 #about {
-    background-color: #fff;
-    margin: 2rem 0;
-    padding: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 14px;
+    background-image: url('../assets/images/common/tattoo_bg_1.jpg');  /* Path to your image */
+    background-size: cover;    /* Makes the image cover the entire screen */
+    background-position: top; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    padding: 10px;
+    text-align: center;
+    color: #fdefe7;
 }
 
-#gallery .gallery-container {
+#gallery {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: #fdefe7;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    transition: transform 0.5s ease-in-out;
 }
 
-#gallery .gallery-container img {
-    max-width: 200px;
-    margin: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.carousel-slide {
+    min-width: 100%;
+    transition: opacity 0.5s;
 }
 
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
 /* ------------------------------------------- Art page style ------------------------------------------- */
 
 
