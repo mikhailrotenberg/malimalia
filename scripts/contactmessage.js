@@ -1,7 +1,7 @@
 (function(){
     emailjs.init("xkEVHgg2OobkpFCwu");
  })();
- 
+
 document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault();  // Prevent form submission
 
@@ -32,15 +32,11 @@ document.getElementById("contactForm").addEventListener("submit", function (even
         return;
     }
 
-    // If all validations pass, submit the form
-    alert("Form submitted successfully!");
-    document.getElementById("contactForm").submit();
-
     // Send email using EmailJS
     emailjs.send('service_hg8kax8', 'template_ttacyfu', {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        message: document.getElementById('message').value
+        name: name,
+        email: email,
+        message: message
     }).then(function (response) {
         alert('Message sent successfully!', response.status, response.text);
     }, function (err) {
