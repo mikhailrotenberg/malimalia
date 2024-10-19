@@ -20,12 +20,12 @@
 <a href="./contact.html" class="floating-button" target="_blank"></a> <!-- Opens in new tab -->
 <script>
     // Load header
-    fetch('./header.html')
+    fetch('./components/header.html')
         .then(response => response.text())
         .then(data => document.getElementById('header').innerHTML = data);
 
     // Load footer
-    fetch('./footer.html')
+    fetch('./components/footer.html')
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
