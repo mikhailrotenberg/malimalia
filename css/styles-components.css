@@ -94,7 +94,8 @@ nav ul li a:hover {
 .social-icons a {
     color: #fdefe7; /* Change to your desired color */
     text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Space between icons */
+    margin: 10px; /* Space between icons */
+    margin-left: 0px; /* Space between icons */
     font-size: 30px; /* Icon size */
 }
 

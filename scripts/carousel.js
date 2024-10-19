@@ -7,16 +7,6 @@ function moveSlide(n) {
     document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
 }
 
-// Get all images in the gallery
-const galleryImages = document.querySelectorAll('.gallery-image');
-
-// Add click event listener to each image
-galleryImages.forEach(image => {
-    image.addEventListener('click', function() {
-        openFullScreen(this);
-    });
-});
-
 // Function to open image in full screen
 function openFullScreen(image) {
     if (image.requestFullscreen) {
@@ -33,6 +23,9 @@ document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         closeFullScreen();
     }
+});
+document.addEventListener('click', function() {
+    closeFullScreen();
 });
 
 // Function to close full screen
