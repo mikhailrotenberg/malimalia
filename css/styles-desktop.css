@@ -27,7 +27,7 @@ section {
 }
 
 .tattoo {
-    font-size: 36px;
+    font-size: 46px;
     background-image: url('../assets/images/common/tattoo_bg_2.jpg');
     /* Path to your image */
     background-size: cover;
@@ -44,7 +44,7 @@ section {
 }
 
 .art {
-    font-size: 36px;
+    font-size: 46px;
     background-image: url('../assets/images/common/art_background_1.jpg');
     /* Path to your image */
     background-size: cover;
@@ -230,30 +230,46 @@ iframe {
 
 
 /* ------------------------------------------- Contact form style ------------------------------------------- */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.contact-form {
+    max-width: 98%;               /* Allow the form to take up full width */
+    width: 98%;                   /* Ensure it takes 100% of the screen width */
+    padding: 20px;
+    background-color: #464646;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;                /* Centers the form */
+    color: #c29d5d;
 }
 
-form label {
-    margin-top: 10px;
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
 }
 
-form input,
-form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 5px;
+.contact-form input,
+.contact-form textarea {
+    width: 99%;                   /* Ensure the input fields take full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-form button {
-    margin-top: 10px;
-    padding: 0.5rem 1rem;
-    background-color: #333;
-    color: #fff;
+.contact-form button {
+    width: 99%;                   /* Ensure the button takes full width */
+    padding: 0px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+.contact-form button:hover {
+    color: #45a049;
 }
 
 /* ------------------------------------------- Impressum page style ------------------------------------------- */
