@@ -8,118 +8,23 @@ color: #c29d5d; Brown
 color: #ffffff; White
 */
 
-body {
+html, body {
     font-family: 'Libre Baskerville', serif;
     padding: 0;
     margin: 0;
-}
-
-header {
-    font-size:36px;
-    background-color: #464646;
-    color: #c29d5d;
-    padding: 0.1rem 0;
-    margin: 0rem;
-    text-align: center;
-}
-
-.menu-btn {
-    display: none;
-}
-
-.custom-heading {
-    font-size: 50px;
-    color: #c29d5d;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.simple-text {
-    font-size: 16px;
-    color: #c29d5d;
-}
-
-#constraction {
-    font-size: 36px;
-    text-align: center;
-    color: #1d1d1b;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #464646;
-    color: #c29d5d;
-}
-
-.custom-link {
-    text-decoration: none; /* Removes the underline */
-    color: inherit; /* Inherits the color of the surrounding text */
-    font-family: inherit; /* Inherits the font of the surrounding text */
-}
-
-.custom-link:hover {
-    color: #c29d5d; /* Change color on hover (optional) */
-}
-
-.floating-button {
-    position: fixed; /* Stays in place even when scrolling */
-    bottom: 20px;    /* Position from the bottom of the screen */
-    right: 20px;     /* Position from the right side of the screen */
-    background-color:#c29d5d;
-    color: #c29d5d;
-    border: 2px;
-    padding: 50px 50px;
-    border-radius: 50px;
-    cursor: pointer;
-    text-decoration: none; /* Remove underline */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    background-image: url('../assets/images/common/button_contact.png');
-    background-size: cover; /* Make the image cover the button area */
-    background-position: center; /* Center the image */
-}
-
-.floating-button:hover {
-    background-color: #1d1d1b; /* Hover effect */
-}
-
-nav ul {
-    font-size: 14px;
-    list-style: none;
-    padding: 0.2rem;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 7px;
-}
-
-nav ul li a {
-    color: #fdefe7;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #c29d5d;
-}
-
-.social-icons {
-    margin-top: 0px; /* Space between the title and icons */
-}
-
-.social-icons a {
-    color: #fdefe7; /* Change to your desired color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Space between icons */
-    font-size: 30px; /* Icon size */
-}
-
-.social-icons a:hover {
-    color: #c29d5d; /* Change color on hover (you can customize this) */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ------------------------------------------- Index page style ------------------------------------------- */
-#tattoo {
+section {
+    flex: 1; /* Each section will take up equal space */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tattoo {
     font-size: 36px;
     background-image: url('../assets/images/common/tattoo_bg_2.jpg');  /* Path to your image */
     background-size: cover;    /* Makes the image cover the entire screen */
@@ -131,7 +36,7 @@ nav ul li a:hover {
     color: #fdefe7;
 }
 
-#art {
+.art {
     font-size: 36px;
     background-image: url('../assets/images/common/art_background.jpg');  /* Path to your image */
     background-size: cover;    /* Makes the image cover the entire screen */
@@ -143,22 +48,45 @@ nav ul li a:hover {
     color: #fdefe7;
 }
 
-/* ------------------------------------------- Tattoo page style ------------------------------------------- */
-#about {
+/* ------------------------------------------- About page style ------------------------------------------- */
+.about {
     font-size: 14px;
-    background-image: url('../assets/images/common/tattoo_bg_1.jpg');  /* Path to your image */
+    background-image: url('../assets/images/common/mariaTattooBg.jpg');  /* Path to your image */
     background-size: cover;    /* Makes the image cover the entire screen */
-    background-position: top; /* Centers the background image */
+    background-position: left; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
     padding: 10px;
-    text-align: center;
+    text-align: left;
     color: #fdefe7;
 }
 
-#gallery {
+.video-container {
+    position: relative;
+    width: 100%; /* The iframe will take the full width of its container */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container, maintaining aspect ratio */
+    border: 0;
+}
+
+/* ------------------------------------------- Tattoo page style ------------------------------------------- */
+.gallery {
     font-size: 24px;
     padding: 10px;
+    background-image: url('../assets/images/common/tattoo_bg_2.jpg');  /* Path to your image */
+    background-size: cover;    /* Makes the image cover the entire screen */
+    background-position: left; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
     text-align: center;
     color: #fdefe7;
 }
@@ -227,4 +155,13 @@ form button {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+/* ------------------------------------------- Impressum page style ------------------------------------------- */
+.impressum {
+    font-size: 14px;
+    background-color: #fdefe7;
+    padding: 10px;
+    text-align: left;
+    color: #464646;
 }
