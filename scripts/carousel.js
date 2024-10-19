@@ -6,3 +6,42 @@ function moveSlide(n) {
     const offset = -currentIndex * 100;
     document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
 }
+
+// Get all images in the gallery
+const galleryImages = document.querySelectorAll('.gallery-image');
+
+// Add click event listener to each image
+galleryImages.forEach(image => {
+    image.addEventListener('click', function() {
+        openFullScreen(this);
+    });
+});
+
+// Function to open image in full screen
+function openFullScreen(image) {
+    if (image.requestFullscreen) {
+        image.requestFullscreen();  // Open the image in full screen
+    } else if (image.webkitRequestFullscreen) { /* Safari */
+        image.webkitRequestFullscreen();
+    } else if (image.msRequestFullscreen) { /* IE11 */
+        image.msRequestFullscreen();
+    }
+}
+
+// Optionally, you can add an event listener to exit full screen when the user clicks outside the image or presses ESC.
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeFullScreen();
+    }
+});
+
+// Function to close full screen
+function closeFullScreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
+    }
+}
