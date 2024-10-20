@@ -1,10 +1,3 @@
-//fetch('../assets/text/art.json')
-//    .then(response => response.json())
-//    .then(data => {
-//        renderGallery(data);
-//   })
-//    .catch(error => console.error('Error fetching gallery data:', error));
-
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch the JSON data from the gallery.json file
     fetch('../assets/text/art.json')

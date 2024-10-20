@@ -18,11 +18,81 @@ header {
     text-align: center;
 }
 
+
+
+/* Burger menu button */
 .menu-btn {
-    font-size: 26px; /* Slightly smaller for mobile */
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 20;  /* Ensure the button stays above the menu */
+    width: 30px;
+    height: 30px;
+}
+
+/* Burger menu lines */
+.menu-btn div {
+    width: 100%;
+    height: 3px;
+    background-color: #fdefe7;  /* Light color for contrast */
+    margin: 5px 0;
+    transition: 0.4s;  /* Smooth transition for the animation */
+}
+
+/* Navigation menu hidden by default */
+.menu-opened {
+    position: fixed;
+    top: 0;
+    left: -100%;  /* Start off-screen */
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.95);  /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.4s ease-in-out;  /* Slide-in effect */
+    z-index: 10;
+}
+
+/* Show the menu when it's opened */
+.menu-visible .menu-opened {
+    left: 0;  /* Slide into view */
+}
+
+/* Menu item styling */
+.menu-opened ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.menu-opened ul li a {
+    font-size: 22px;  /* Large enough for easy tapping */
+    color: #fdefe7;
+    text-decoration: none;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.menu-opened ul li a:hover {
+    color: #c29d5d;  /* Change on hover */
+}
+
+/* Change burger menu lines to an "X" when the menu is visible */
+.menu-visible .menu-btn div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-visible .menu-btn div:nth-child(2) {
+    opacity: 0;  /* Hide middle line */
+}
+
+.menu-visible .menu-btn div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .custom-heading {
@@ -44,40 +114,6 @@ section {
     box-sizing: border-box;
 }
 
-/* Sidebar and Nav menu */
-.sidebar, .nav ul, header nav ul {
-    display: none; /* Hide on mobile */
-}
-
-.menu-opened ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #333;
-    width: 100%;
-    padding: 20px 0;
-    position: absolute;
-    top: 60px;
-    left: 0;
-}
-
-.menu-opened ul li {
-    margin: 5px 0;
-}
-
-.menu-opened ul li a {
-    color: #fdefe7;
-    font-size: 14px;
-    text-decoration: none;
-    padding: 10px 5px; /* Make clickable area larger */
-    width: 100%;
-    display: block;
-    text-align: center;
-    background-color: #444;
-    border-radius: 8px;
-}
-
 /* Footer */
 footer {
     text-align: center;
@@ -89,7 +125,7 @@ footer {
 /* Floating Button */
 .floating-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 100px;
     right: 20px;
     width: 60px; /* Adjust size for mobile */
     height: 60px;
@@ -106,7 +142,7 @@ footer {
 /* Social Icons */
 .social-icons a {
     color: #fdefe7;
-    font-size: 20px; /* Adjust size */
+    font-size: 30px; /* Adjust size */
     margin: 0 5px;
 }
 
@@ -150,4 +186,24 @@ footer {
 .contact-form button {
     width: 100%; /* Full width button */
     font-size: 18px; /* Adjust size */
+}
+
+/* Atelier */
+.atelier-container {
+    display: flex;
+    flex-direction: column-reverse; /* Stacks the video first */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.video-onaside, .map-container {
+    width: 100%;  /* Make video and map full width on mobile */
+    height: auto; /* Allow height to adjust automatically */
+}
+
+.map-container iframe, 
+.video-onaside iframe {
+    width: 100%;  /* Full width on mobile */
+    height: auto;  /* Keep height responsive */
 }
