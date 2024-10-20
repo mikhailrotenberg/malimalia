@@ -10,15 +10,13 @@ html, body {
 }
 
 header {
-    font-size: 28px; /* Reduce size for mobile */
+    font-size: 26px; /* Reduce size for mobile */
     background-color: #464646;
     color: #c29d5d;
     padding: 0.5rem 0;
     margin: 0;
     text-align: center;
 }
-
-
 
 /* Burger menu button */
 .menu-btn {
@@ -96,7 +94,7 @@ header {
 }
 
 .custom-heading {
-    font-size: 36px; /* Adjust heading size for smaller screens */
+    font-size: 46px; /* Adjust heading size for smaller screens */
     color: #c29d5d;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -197,13 +195,22 @@ footer {
     gap: 20px;
 }
 
-.video-onaside, .map-container {
+.map-container {
     width: 100%;  /* Make video and map full width on mobile */
     height: auto; /* Allow height to adjust automatically */
 }
 
-.map-container iframe, 
-.video-onaside iframe {
+.map-container iframe {
     width: 100%;  /* Full width on mobile */
     height: auto;  /* Keep height responsive */
+}
+
+.video-onaside {
+    width: 100vh;  /* Make video and map full width on mobile */
+    height: 50vh; /* Allow height to adjust automatically */
+}
+ 
+.video-onaside iframe {
+    width: 100vh;  /* Full width on mobile */
+    height: 50vh;  /* Keep height responsive */
 }
