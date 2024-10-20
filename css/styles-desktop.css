@@ -258,10 +258,11 @@ iframe {
 }
 
 .contact-form button {
-    width: 99%;                   /* Ensure the button takes full width */
-    padding: 0px;
-    background-color: #4CAF50;
-    color: white;
+    width: 100%;                   /* Ensure the button takes full width */
+    padding: 5px;
+    background-color: #c29d5d;
+    color: #fdefe7;
+    font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     border: none;
     border-radius: 5px;
@@ -269,7 +270,7 @@ iframe {
 }
 
 .contact-form button:hover {
-    color: #45a049;
+    color: #464646;
 }
 
 /* ------------------------------------------- Impressum page style ------------------------------------------- */

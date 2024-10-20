@@ -1,6 +1,4 @@
-(function(){
-    emailjs.init("xkEVHgg2OobkpFCwu");
- })();
+emailjs.init("xkEVHgg2OobkpFCwu");
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault();  // Prevent form submission
@@ -33,7 +31,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
     }
 
     // Send email using EmailJS
-    emailjs.send('service_hg8kax8', 'template_ttacyfu', {
+    emailjs.send("service_hg8kax8", "template_ttacyfu", {
         name: name,
         email: email,
         message: message
