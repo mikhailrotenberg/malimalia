@@ -1,0 +1,148 @@
+[
+    {
+        "question": "How to take care for your new Tattoo?",
+        "answer": [
+            {
+                "type": "header",
+                "content": "After your Tattoo is ready:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "When your tattoo is done, it will be creamed and covered with the plastic wrap.",
+                    "Keep the dressing on for no more then 3 - 4 hours.",
+                    "After this time, you can remove the bandage.",
+                    "Wash your hands first with warm water and soap.",
+                    "Then gently wash the tattoo with fragrance-free soap and water.",
+                    "Pat your skin dry with a soft paper towel. Apply a small amount of Bepanthen cream (better Bepanthen Antiseptic) or any other Tattoo Aftercare Cream to the tattoo. You can keep the bandage off at this point to let your skin breathe.",
+                    "But it is better to wrap it again for the first night, to protect it from bacteria and prevent rubbing on your clothes.",
+                    "The next day or two I would also recommend to  wash your tattoo 3 - 4  times a day with warm water and soap and apply tattoo aftercare cream, wear the bandage and don't forget to change it every 3 hours."
+                ]
+            },
+            {
+                "type": "header",
+                "content": "While your tattoo heals, you should:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Wear sun-protective clothing whenever you go outside."
+                ]
+            },
+            {
+                "type": "header",
+                "content": "You shouldn’t:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Scratch or pick at the tattoo.",
+                    "Go swimming or immerse your body in water (showers are fine).",
+                    "Go to Sauna.",
+                    "Wear tight clothing over the tattoo."
+                ]
+            }
+        ]
+    },
+    {
+        "question": "What do you need to know about your health before doing a Tattoo?",
+        "answer": [
+            {
+                "type": "list",
+                "content": [
+                    "Besteht eine Bluterkrankung oder erhöhte Blutungsneigung? / Do you have a blood disorder or increased bleeding tendency?",
+                    "Besteht eine Hauterkrankung (Neurodermitis, Schuppenflechten, usw.)? / Do you have a skin disease (neurodermatitis, psoriasis, etc.)?",
+                    "Nehmen Sie Medikamente zur Blutverdünnung (Marcumar, Aspirin, Heparin, usw.)? / Do you take blood thinning medication (Marcumar, Aspirin, Heparin, etc.)?",
+                    "Bestehen Allergien? / Do you have any allergies?",
+                    "Bestehen Überempfindlichkeiten (z.B. gegen Latex, Medikamente)? / Are there any hypersensitivities (e.g. to latex, medication)?",
+                    "Bestehen Herz- oder Kreislaufbeschwerden? / Are there any heart or circulatory problems?",
+                    "Besteht eine chronische Infektionskrankheit (z. B. HIV, AIDS, Hepatitis, MRSA)? / Is there a chronic infectious disease (e.g. HIV, AIDS, hepatitis, MRSA)?",
+                    "Besteht eine akute Infektionskrankheit (grippaler Infekt, usw.)? / Is there an acute infectious disease (flu, etc.)?",
+                    "Bestehen andere schwerwiegende chronische Leiden (z.B. Epilepsie oder Lähmungen)? / Are there any other serious chronic conditions (e.g. epilepsy or paralysis)?",
+                    "Wurde die zu tätowierende Hautstelle im letzten halben Jahr einer Strahlen- oder Laserbehandlung unterzogen? / Has the skin area to be tattooed been subjected to radiation or laser treatment in the last six months?",
+                    "Neigen Sie zu Keloidbildung (überschießende Narbenbildung) oder Sarkoidose (Erkrankung des Bindegewebes)? / Do you have a tendency to keloid formation (excessive scarring) or sarcoidosis (disease of the connective tissue)?",
+                    "Werden Sie betreut/ haben Sie einen Vormund? / Are you being cared for/have you a guardian?",
+                    "Besteht eine Schwangerschaft? / Are you pregnant?",
+                    "Befinden Sie sich in der Stillzeit? / Are you in the breastfeeding period?",
+                    "COVID-19: Geimpft, Getestet, Genesen? / COVID-19: Vaccinated, Tested, Recovered?",
+                    "Weitere wichtige Informationen, die Sie wissen sollten? / Other important information that important to know?"
+                ]
+            }
+        ]
+    },
+    {
+        "question": "Declaration of consent. / Einverständniserklärung.",
+        "answer": [
+            {
+                "type": "header",
+                "content": "Definition (EN)"
+            },
+            {
+                "type": "paragraph",
+                "content": "A tattoo is the permanent placement of pigments in the skin. These pigments cannot be successfully removed completely, e.g. by laser. They then nevertheless remain at least partially in the body, even if no longer visible in the skin, but in the lymph nodes and internal organs. At the moment (as of 2023), however, there are no studies that say that pigments damage health or affect the function of organs. A real removal of the tattoo is only possible by cutting it out, but this leads to scarring. It is not known how many pigments remain in the body. The tattoo is placed in the dermis, the second layer of the skin, by means of needles and pigments. This is done through the use of needles and is in the legal sense a bodily injury, in which they hereby consent."
+            },
+            {
+                "type": "header",
+                "content": "Note for the client"
+            },
+            {
+                "type": "paragraph",
+                "content": "Despite the years of experience of the tattoo artists working here, various disturbances or side effects/complications may occur during or after tattooing for which the tattoo artist is not responsible. These can be, among other things:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Scratch or pick at the tattoo.",
+                    "Circulatory problems or fainting.", 
+                    "Swelling of the tattoo.",
+                    "Reddening of the skin also around the tattoo.",
+                    "Post-tattoo bleeding.",
+                    "Occurrence of sarcoidosis (reaction to the tattoo dyes) Scarring.",
+                    "Unplanned running of the color (blow outs) due to the location of the body (crook of the arm, over bones) and/or due to the nature of the client's connective tissue.",
+                    "Blurred lines may occur due to abrupt twitching/fidgeting of the client.",
+                    "Previously lasered (lightened) or irradiated skin can cause problems when the color is absorbed again. Reworking may be necessary here.",
+                    "Cover ups often cannot be completely covered, parts of the old tattoo may still be visible after healing. Unpredictable reactions with the color of the old tattoo may also occur. This is discussed in detail with the tattoo artist beforehand."
+
+                ]
+            },
+            {
+                "type": "paragraph",
+                "content": "The tattoo usually looks reddened immediately after tattooing, may bleed after and the body area is slightly swollen. This happens despite the latest medical knowledge selected equipment and materials. Worked only with properly disinfected, sterilized and / or disposable equipment. It can come however by inappropriate or wrong aftercare nevertheless to an infection after the tattooing. This is manifested by an increasingly reddening of the entire body part, even around the tattoo. In such a case, we ask to be informed immediately, or to see a doctor directly. Very rarely allergic reactions occur. These can be triggered by the tattoo ink or the ointment used for aftercare. The skin reddens, hurts and the affected area does not heal, possibly still oozes. Again, we ask to be informed or please see a doctor directly."
+            },
+            {
+                "type": "header",
+                "content": "Definition (DE)"
+            },
+            {
+                "type": "paragraph",
+                "content": "Eine Tätowierung ist das dauerhafte Verbringen von Pigmenten in die Haut. Diese Pigmente können nicht erfolgreich wieder vollständig entfernt werden, z.B durch Lasern. Sie verbleiben dann trotzdem zumindest teilweise im Körper, wenn auch nicht mehr sichtbar in der Haut, so aber in den Lymphknoten und den inneren Organen. Zum Zeitpunkt (Stand 2023) gibt es allerdings keine Studien, die besagen, dass Pigmente die Gesundheit schädigen oder die Funktion der Organe beeinträchtigen. Eine wirkliche Entfernung der Tätowierung ist nur durch Herausschneiden möglich, was aber zu Narbenbildung führt. Wie Viele Pigmente trotzdem im Körper verbleiben, ist nicht erforscht. Die Tätowierung wird mittels Nadeln und Pigmenten in die Dermis, die zweite Hautschicht verbracht. Dies geschieht durch den Einsatz von Nadeln und stellt im rechtlichen Sinne eine Körperverletzung dar, in die sie hiermit einwilligen."
+            },
+            {
+                "type": "header",
+                "content": "Hinweis für den Kunden"
+            },
+            {
+                "type": "paragraph",
+                "content": "Trotz der jahrelangen Erfahrung der hier arbeitenden Tätowierer, kann es bei oder nach der Tätowierung zu diversen Störungen oder Nebeneffekten/Komplikationen kommen, die der Tätowierer nicht zu vertreten hat. Diese können unter anderem sein:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Kreislaufprobleme oder Ohnmacht.",
+                    "Anschwellen der Tätowierung.",
+                    "Rötung der Haut auch um das Tattoo.",
+                    "Nachblutung.",
+                    "Auftreten von Sarkoidose (Reaktion auf die Tätowierung Farbstoffe).",
+                    "Narbenbildung.",
+                    "Ungeplantes Verlaufen der Farbe (Blow outs) aufgrund der Körperstelle (Armbeuge, über Knochen) und/oder durch die Beschaffenheit des Bindegewebes der Kundin/des Kunden.",
+                    "Durch unvermitteltes Zucken/Zappeln des Kunden kann es zu verwackelten Linien kommen.",
+                    "Vormals gelaserte (aufgehellte) oder auch bestrahlte Haut kann Probleme bei der neuerlichen Farbaufnahme machen. Hier muss ggf. nachgearbeitet werden.",
+                    "Cover Ups sind oft nicht vollständig zu verdecken, es können nach dem Abheilen trotzdem noch Teile des alten Tattoos zu sehen sein, Auch können unvorhersehbare Reaktionen mit der Farbe des alten Tattoos vorkommen. Das wird im Einzelnen mit dem Tätowierer vorher abgesprochen."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "content": "Das Tattoo sieht unmittelbar nach dem Tätowieren meist gerötet aus, kann nachblutung und die Körperpartie ist leicht geschwollen. Dies passiert trotz nach neuesten medizinischen Erkenntnissen ausgewählten Gerätschaften und Materialien. Gearbeitet wird nur mit vorschriftsmäßig desinfizierten, sterilisiertem und/oder Einweg Equipment. Es kann aber durch unsachgemäße oder falsche Nachsorge trotzdem zu einer Infektion nach der Tätowierung kommen. Dies zeigt sich durch eine immer stärker werdende Rötung des gesamten Körperteils auch um die Tätowierung herum. In einem solchen Falle bitten wir, sofort informiert zu werden, oder direkt einen Arzt aufzusuchen. Sehr selten kommen allergische Reaktionen vor. Diese können ausgelöst werden durch die Tätowierfarbe oder die verwendete Salbe zur Nachsorge. Die Haut rötet sich, schmerzt und die betroffene Stelle heilt nicht ab, nässt evtl. noch. Auch hier bitten wir, informiert zu werden oder suchen Sie bitte direkt einen Arzt auf."            }
+        ]
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+      "image": "assets/images/art/art_1.jpg",
+      "title": "Image Title 1",
+      "description": [
+        {
+          "type": "header",
+          "content": "This is a header for image 1"
+        },
+        {
+          "type": "paragraph",
+          "content": "This is a description paragraph for the first image."
+        },
+        {
+          "type": "list",
+          "content": [
+            "Bullet point 1",
+            "Bullet point 2",
+            "Bullet point 3"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/art_2.jpg",
+      "title": "Image Title 2",
+      "description": [
+        {
+          "type": "header",
+          "content": "This is a header for image 2"
+        },
+        {
+          "type": "paragraph",
+          "content": "This is a description paragraph for the second image."
+        },
+        {
+          "type": "list",
+          "content": [
+            "Another bullet point 1",
+            "Another bullet point 2"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/art_3.jpg",
+      "title": "Image Title 3",
+      "description": [
+        {
+          "type": "header",
+          "content": "This is a header for image 3"
+        },
+        {
+          "type": "paragraph",
+          "content": "This is a description paragraph for the third image."
+        }
+      ]
+    }
+  ]
+  

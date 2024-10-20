@@ -18,6 +18,15 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: #1d1d1b; /* Change to the color you want */
+    text-decoration: underline; /* Optional: removes the underline */
+}
+
+a:hover {
+    color: #ffffff; /* Optional: hover color */
+}
+
 /* ------------------------------------------- Index page style ------------------------------------------- */
 section {
     flex: 1;
@@ -227,18 +236,90 @@ iframe {
 }
 
 /* ------------------------------------------- Art page style ------------------------------------------- */
+/* Container for the whole gallery */
+#artgallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
 
+/* Individual gallery item */
+.gallery-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Image styling */
+.gallery-image img {
+    max-width: 100%;
+    height: auto;
+    width: 50vw;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Description styling */
+.gallery-description {
+    width: 50vw;
+    color: #333;
+    padding: 10px;
+}
+
+.gallery-description h2 {
+    margin-bottom: 10px;
+}
+
+.gallery-description h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.gallery-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.gallery-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.gallery-description li {
+    font-size: 1rem;
+}
 
 /* ------------------------------------------- Contact form style ------------------------------------------- */
+.contact {
+    font-size: 14px;
+    background-image: url('../assets/images/common/background_2.png');
+    /* Path to your image */
+    background-size: cover;
+    /* Makes the image cover the entire screen */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-attachment: fixed;
+    /* Keeps the background fixed when scrolling */
+    padding: 50px;
+    text-align: left;
+    color: #fdefe7;
+}
+
 .contact-form {
     max-width: 98%;               /* Allow the form to take up full width */
     width: 98%;                   /* Ensure it takes 100% of the screen width */
     padding: 20px;
-    background-color: #464646;
+    background-color: #c29d5d;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 auto;                /* Centers the form */
-    color: #c29d5d;
+    color: #fdefe7;
 }
 
 .contact-form label {
@@ -263,7 +344,7 @@ iframe {
     background-color: #c29d5d;
     color: #fdefe7;
     font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -280,4 +361,59 @@ iframe {
     padding: 10px;
     text-align: left;
     color: #464646;
+}
+
+/* ------------------------------------------- FAQ page style ------------------------------------------- */
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    font-family: 'Libre Baskerville', serif;
+    width: 100%;
+    text-align: left;
+    background-color: #464646;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+.faq-answer.open {
+    max-height: 500px;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
 }

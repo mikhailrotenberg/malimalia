@@ -1,41 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Koroleva Contact Form</title>
+    <title>Maria Koroleva Tattoo</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles-components.css">
     <link rel="stylesheet" href="./css/styles-desktop.css">
     <link rel="stylesheet" href="./css/styles-mobile.css" media="only screen and (max-width: 768px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="images" href="./assets/images/tattoo/">
     <script src="./scripts/toggleMenu.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 
 <body>
     <div id="header"></div>
-    <section class="contact">
-        <form id="contactForm" class="contact-form">
-            <h2>Contact me...</h2>
-            <p>For any inquiries, please contact me via email <a
-                    href="mailto:contact.malimalia@gmail.com">contact.malimalia@gmail.com</a> or this Contact Form.</p>
 
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+    <section id="artgallery"></section>
+    <script src="./scripts/artgallery.js"></script> <!-- JavaScript to render the gallery -->
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
-
-            <button type="submit">Send</button>
-        </form>
-        <script src="./scripts/contactmessage.js"></script>
-    </section>
     <div id="footer"></div>
+    <a href="./contact.html" class="floating-button" target="_blank"></a> <!-- Opens in new tab -->
 </body>
 
 <script>
@@ -49,5 +34,4 @@
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
-
 </html>
