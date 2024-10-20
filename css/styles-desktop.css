@@ -1,4 +1,4 @@
-/* ------------------------------------------- Common style ------------------------------------------- */
+/* ------------------------------------------- Desktop style ------------------------------------------- */
 /*
 color: #1d1d1b; Black
 color: #464646; Grey
@@ -19,12 +19,15 @@ body {
 }
 
 a {
-    color: #1d1d1b; /* Change to the color you want */
-    text-decoration: underline; /* Optional: removes the underline */
+    color: #1d1d1b;
+    /* Change to the color you want */
+    text-decoration: underline;
+    /* Optional: removes the underline */
 }
 
 a:hover {
-    color: #ffffff; /* Optional: hover color */
+    color: #ffffff;
+    /* Optional: hover color */
 }
 
 /* ------------------------------------------- Index page style ------------------------------------------- */
@@ -89,8 +92,10 @@ section {
 
 .video-container {
     position: relative;
-    width: 100%;/* The iframe will take the full width of its container */
-    padding-bottom: 56.25%;/* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    width: 100%;
+    /* The iframe will take the full width of its container */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (9 / 16 = 0.5625) */
     height: 0;
     overflow: hidden;
 }
@@ -99,8 +104,10 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;/* Full width of the container */
-    height: 100%;/* Full height of the container, maintaining aspect ratio */
+    width: 100%;
+    /* Full width of the container */
+    height: 100%;
+    /* Full height of the container, maintaining aspect ratio */
     border: 0;
 }
 
@@ -116,22 +123,26 @@ section {
 /* Container to hold the map and video side by side */
 .atelier-container {
     display: flex;
-    justify-content: space-between;/* Ensures space between the map and video */
-    align-items: flex-start;/* Aligns the items at the top */
-    gap: 20px;/* Adjust the gap between map and video */
+    justify-content: space-between;
+    /* Ensures space between the map and video */
+    align-items: flex-start;
+    /* Aligns the items at the top */
+    gap: 20px;
+    /* Adjust the gap between map and video */
 }
 
 .video-onaside {
     position: relative;
     width: 15%;
-    height: 600px; 
+    height: 600px;
 }
 
 /* Style the map container */
 .map-container {
     position: relative;
     width: 85%;
-    height: 600px; /* Adjust height as needed */
+    height: 600px;
+    /* Adjust height as needed */
 }
 
 iframe {
@@ -169,12 +180,14 @@ iframe {
     background-color: black;
     text-align: center;
     color: #fdefe7;
-    height: 100vh;/* Full viewport height */
+    height: 100vh;
+    /* Full viewport height */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;/* Hide any overflow */
+    overflow: hidden;
+    /* Hide any overflow */
 }
 
 .carousel-container {
@@ -186,9 +199,11 @@ iframe {
 
 .carousel {
     display: flex;
-    flex-direction: row;/* Ensures that slides are displayed in a row */
+    flex-direction: row;
+    /* Ensures that slides are displayed in a row */
     transition: transform 0.5s ease-in-out;
-    height: 100%;/* Carousel fills the full section height */
+    height: 100%;
+    /* Carousel fills the full section height */
 }
 
 .carousel-slide {
@@ -201,16 +216,23 @@ iframe {
 }
 
 .carousel-slide img {
-    max-height: 100%;/* The image will fill the section's height */
-    max-width: 100%;/* The image will also scale down to fit within the screen width */
-    object-fit: contain;/* Keeps the aspect ratio and ensures it doesn't stretch */
-    cursor: pointer;/* Show pointer cursor when hovering over the image */
+    max-height: 100%;
+    /* The image will fill the section's height */
+    max-width: 100%;
+    /* The image will also scale down to fit within the screen width */
+    object-fit: contain;
+    /* Keeps the aspect ratio and ensures it doesn't stretch */
+    cursor: pointer;
+    /* Show pointer cursor when hovering over the image */
 }
 
 .carousel-slide img:fullscreen {
-    object-fit: contain;/* Maintain the aspect ratio in full screen */
-    width: 100vw;/* Full viewport width */
-    height: 100vh;/* Full viewport height */
+    object-fit: contain;
+    /* Maintain the aspect ratio in full screen */
+    width: 100vw;
+    /* Full viewport width */
+    height: 100vh;
+    /* Full viewport height */
 }
 
 .prev,
@@ -312,13 +334,16 @@ iframe {
 }
 
 .contact-form {
-    max-width: 98%;               /* Allow the form to take up full width */
-    width: 98%;                   /* Ensure it takes 100% of the screen width */
+    max-width: 98%;
+    /* Allow the form to take up full width */
+    width: 98%;
+    /* Ensure it takes 100% of the screen width */
     padding: 20px;
     background-color: #c29d5d;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;                /* Centers the form */
+    margin: 0 auto;
+    /* Centers the form */
     color: #fdefe7;
 }
 
@@ -330,7 +355,8 @@ iframe {
 
 .contact-form input,
 .contact-form textarea {
-    width: 99%;                   /* Ensure the input fields take full width */
+    width: 99%;
+    /* Ensure the input fields take full width */
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -339,7 +365,8 @@ iframe {
 }
 
 .contact-form button {
-    width: 100%;                   /* Ensure the button takes full width */
+    width: 100%;
+    /* Ensure the button takes full width */
     padding: 5px;
     background-color: #c29d5d;
     color: #fdefe7;
