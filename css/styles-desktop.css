@@ -319,16 +319,11 @@ iframe {
 .contact {
     font-size: 14px;
     background-image: url('../assets/images/common/background_2.png');
-    /* Path to your image */
     background-size: cover;
-    /* Makes the image cover the entire screen */
     background-position: center;
-    /* Centers the background image */
     background-repeat: no-repeat;
-    /* Prevents the image from repeating */
     background-attachment: fixed;
-    /* Keeps the background fixed when scrolling */
-    padding: 50px;
+    padding: 15px;
     text-align: left;
     color: #fdefe7;
 }
@@ -353,10 +348,19 @@ iframe {
     font-size: 16px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input {
     width: 99%;
     /* Ensure the input fields take full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    width: 99%;
+    height: 10vh;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -369,16 +373,17 @@ iframe {
     /* Ensure the button takes full width */
     padding: 5px;
     background-color: #c29d5d;
-    color: #fdefe7;
+    color: #464646;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
+    text-decoration: underline;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .contact-form button:hover {
-    color: #464646;
+    color: #fdefe7;
 }
 
 /* ------------------------------------------- Impressum page style ------------------------------------------- */
