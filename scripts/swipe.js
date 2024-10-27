@@ -46,13 +46,12 @@ function moveToPreviousSlide() {
 
 function updateGallery() {
     const galleryItems = document.querySelectorAll('.carousel-slide');
-    galleryItems.forEach((item, index) => {
-        if (index === currentIndex) {
-            item.style.display = 'block';
-        } else {
-            item.style.display = 'none';
-        }
-    });
+    const carousel = document.querySelector('.carousel');
+
+    // Update the transform to show the current slide
+    const offset = -currentIndex * 100;
+    carousel.style.transform = `translateX(${offset}%)`;
+
 }
 
 // Initialize gallery with swiping
