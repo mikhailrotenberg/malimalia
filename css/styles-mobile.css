@@ -263,11 +263,11 @@ footer {
 }
 
 .video-onaside {
-    width: 100vh;  /* Make video and map full width on mobile */
-    height: 60vh; /* Allow height to adjust automatically */
+    width: 100%;  /* Make video and map full width on mobile */
+    height: 100%; /* Allow height to adjust automatically */
 }
  
 .video-onaside iframe {
     width: 100%;  /* Full width on mobile */
-    height: 60vh;  /* Keep height responsive */
+    height: 65vh;  /* Keep height responsive */
 }
