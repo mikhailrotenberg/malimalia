@@ -45,22 +45,14 @@ function moveToPreviousSlide() {
 }
 
 function updateGallery() {
-    const galleryItems = document.querySelectorAll('.carousel-slide');
     const carousel = document.querySelector('.carousel');
-
-    // Update the transform to show the current slide
     const offset = -currentIndex * 100;
     carousel.style.transform = `translateX(${offset}%)`;
-
 }
 
 // Initialize gallery with swiping
 document.addEventListener('DOMContentLoaded', function () {
     const galleryContainer = document.getElementById('gallery');
-
-    // Initially display the first image
-    updateGallery();
-
-    // Enable swipe functionality on mobile
-    enableSwipe(galleryContainer);
+    updateGallery();  // Initially display the first image
+    enableSwipe(galleryContainer);  // Enable swipe functionality on mobile
 });
