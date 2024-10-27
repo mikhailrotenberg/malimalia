@@ -1,58 +1,105 @@
 [
     {
-      "image": "assets/images/art/art_1.jpg",
-      "title": "Image Title 1",
+      "image": "assets/images/art/patriarchy.jpg",
+      "title": "Patriarchy",
       "description": [
         {
           "type": "header",
-          "content": "This is a header for image 1"
+          "content": "2023 | Acrylic on canvas | 120x80cm"
         },
         {
           "type": "paragraph",
-          "content": "This is a description paragraph for the first image."
+          "content": "The painting shows a deer, which is one of the oldest symbols of patriarchy, mortally wounded by the sword of modernity. Despite its deep wounds, the deer retains its resilience and dignity, continuing to hold on with greatness even in the face of near-fall."
         },
         {
-          "type": "list",
-          "content": [
-            "Bullet point 1",
-            "Bullet point 2",
-            "Bullet point 3"
-          ]
+          "type": "paragraph",
+          "content": "In the background, tongues of fire engulf the world, shattering the former ideals and social structures that once defined societal norms. The ashes of the past swirl in the air, reflecting the decay and disappearance of old orders and ideologies."
+        },
+        {
+          "type": "paragraph",
+          "content": "Nevertheless, despite his grievous injuries and desire for destruction, the deer can not only survive, but also adapt to new conditions! Its resilience and dignity hint at the possibility of transformation, that even in the face of radical change and the weakening of the traditional influence of patriarchy, it can find a new way to exist. This symbolizes both the resistance of old structures and their ability to change and adapt in the face of the modern world."
+        },
+        {
+          "type": "header",
+          "content": "Price: 1000 EUR"
         }
       ]
     },
     {
-      "image": "assets/images/art/art_2.jpg",
-      "title": "Image Title 2",
+      "image": "assets/images/art/the_antipodean.jpg",
+      "title": "The Antipodean",
       "description": [
         {
           "type": "header",
-          "content": "This is a header for image 2"
+          "content": "2024 | Acrylic, mixed media on canvas | 100x80cm"
         },
         {
           "type": "paragraph",
-          "content": "This is a description paragraph for the second image."
+          "content": "The black rabbit as a symbol is a powerful contrast to the pristine white rabbit, which represents the traditional idea of innocence and obedience and adherence to established norms and rules. This symbol represents an ideal that often seeks to fulfill the expectations of society and religious structures."
         },
         {
-          "type": "list",
-          "content": [
-            "Another bullet point 1",
-            "Another bullet point 2"
-          ]
+          "type": "paragraph",
+          "content": "In the context of the black rabbit, we see the polar opposite. The black rabbit is an image saturated with symbolism of mystery and the dark side of human nature. Its color and appearance speak of contradictions, hidden truths and violation of traditional norms. Its appearance can evoke feelings of anxiety and dissent, symbolizing change that challenges the existing order."
+        },
+        {
+          "type": "paragraph",
+          "content": "In this way, the black rabbit becomes a symbol of a deeper cultural and philosophical contradiction. The black rabbit embodies the dynamics of change, rebellion and temptation, showing that the existence and perception of symbols is always linked to context and opposites."
+        },
+        {
+          "type": "header",
+          "content": "Price: 1000 EUR"
         }
       ]
     },
     {
-      "image": "assets/images/art/art_3.jpg",
-      "title": "Image Title 3",
+      "image": "assets/images/art/forces_of_chaos.jpg",
+      "title": "Forces of Chaos",
       "description": [
         {
           "type": "header",
-          "content": "This is a header for image 3"
+          "content": "2022 | Ink and watercolor on paper | 43х33сm"
         },
         {
           "type": "paragraph",
-          "content": "This is a description paragraph for the third image."
+          "content": "The black horse, violent and uncontrollable, symbolizes rebellion, resistance and instability. In historical and cultural contexts, this image can be associated with forces that challenge the established order and seek radical change."
+        },
+        {
+          "type": "paragraph",
+          "content": "It represents unbridled freedom and power, the desire for independence and the breaking of limits, both in a physical and psychological sense."
+        },
+        {
+          "type": "paragraph",
+          "content": "Thus, the black rampaging horse can be a powerful symbol, reflecting both destructive and transformative forces."
+        },
+        {
+          "type": "header",
+          "content": "Price: 1000 EUR"
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/controlled_altruism.jpg",
+      "title": "Controlled altruism",
+      "description": [
+        {
+          "type": "header",
+          "content": "2022 | Ink, charcoal pencil, watercolor and acrylic on paper | 73х53сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "The pelican bird has long been a symbol of self-sacrifice. In the past, selfless acts were perceived as an act of selflessness, where the personal interests of the sacrificer were placed below the interests of society or another person. However, in modern times, where personal data and social media play a significant role, the concept of self-sacrifice has become more manageable and controllable."
+        },
+        {
+          "type": "paragraph",
+          "content": "Modern technology and media platforms allow acts of self-sacrifice to be tracked and documented. This means that many actions that were once spontaneous and sincere are now part of elaborate strategies to gain public recognition, build a positive image or achieve personal goals. In this context, self-sacrifice becomes a controlled process in which every step and act can be adapted to maximize social and personal benefits."
+        },
+        {
+          "type": "paragraph",
+          "content": "Social networks and media create platforms where sacrifice and help become visible and appreciated. On the one hand, this spreads the message of altruism and inspires others to follow suit. On the other hand, it raises questions about the authenticity of motivations and the consequences of such control..."
+        },
+        {
+          "type": "header",
+          "content": "Price: 1000 EUR"
         }
       ]
     }

@@ -183,6 +183,33 @@ footer {
     height: auto;
 }
 
+/* Description styling */
+.gallery-description {
+    width: 100%; /* Full width for mobile */
+    max-width: 100%;
+    padding: 2px;
+}
+
+.gallery-description h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-description h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-description p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.gallery-description ul {
+    list-style-type: disc;
+}
+
 /* My contacts... */
 .contact {
     padding: 0px;
