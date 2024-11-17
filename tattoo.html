@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Maria Koroleva Tattoo</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles-components.css">
@@ -13,33 +14,56 @@
     <link rel="images" href="./assets/images/tattoo/">
     <script src="./scripts/carousel.js"></script>
     <script src="./scripts/toggleMenu.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-864339438"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-864339438');
+    </script>
 </head>
 
 <body>
     <div id="header"></div>
 
     <section id="gallery" class="gallery">
-        <div class="carousel-container"> 
+        <div class="carousel-container">
             <div class="carousel">
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo1.jpg" alt="Tattoo 1"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo2.jpg" alt="Tattoo 2"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo3.jpg" alt="Tattoo 3"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo4.jpg" alt="Tattoo 4"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo5.jpg" alt="Tattoo 5"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo6.jpg" alt="Tattoo 6"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo7.jpg" alt="Tattoo 7"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo8.jpg" alt="Tattoo 8"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo9.jpg" alt="Tattoo 9"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo10.jpg" alt="Tattoo 10"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo11.jpg" alt="Tattoo 11"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo12.jpg" alt="Tattoo 12"></div>
-                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo13.jpg" alt="Tattoo 13"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo1.jpg"
+                        alt="Tattoo 1"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo2.jpg"
+                        alt="Tattoo 2"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo3.jpg"
+                        alt="Tattoo 3"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo4.jpg"
+                        alt="Tattoo 4"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo5.jpg"
+                        alt="Tattoo 5"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo6.jpg"
+                        alt="Tattoo 6"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo7.jpg"
+                        alt="Tattoo 7"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo8.jpg"
+                        alt="Tattoo 8"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img src="./assets/images/tattoo/tattoo9.jpg"
+                        alt="Tattoo 9"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img
+                        src="./assets/images/tattoo/tattoo10.jpg" alt="Tattoo 10"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img
+                        src="./assets/images/tattoo/tattoo11.jpg" alt="Tattoo 11"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img
+                        src="./assets/images/tattoo/tattoo12.jpg" alt="Tattoo 12"></div>
+                <div class="carousel-slide" onclick="openFullScreen(this)"><img
+                        src="./assets/images/tattoo/tattoo13.jpg" alt="Tattoo 13"></div>
             </div>
             <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
             <button class="next" onclick="moveSlide(1)">&#10095;</button>
         </div>
     </section>
-    
+
     <div id="footer"></div>
     <a href="./contact.html" class="floating-button" target="_blank"></a> <!-- Opens in new tab -->
 </body>
@@ -55,4 +79,5 @@
         .then(response => response.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 </script>
+
 </html>
