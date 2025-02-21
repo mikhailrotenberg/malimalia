@@ -44,6 +44,46 @@
       ]
     },
     {
+      "image": "assets/images/art/magpies.jpg",
+      "title": "Magpies",
+      "description": [
+        {
+          "type": "header",
+          "content": "2025 | Acrylic on canvas | 50х50сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "The painting is a metaphor for the complex relationship between a person, the surrounding world, collective consciousness, and internal struggles. The person, with magpies perched on their face and head, symbolizes the battle with chaotic thoughts, memories, and the pressure of public opinion, which prevents inner peace. The red-orange background, resembling a raging fire, represents the intensity of both internal and external conflicts. This fire embodies passions, fears, and the struggle against imposed ideas. The magpies, closely tied to collective consciousness, seem to whisper their stories, imposing foreign rules on the individual and limiting their freedom."
+        },
+        {
+          "type": "paragraph",
+          "content": "The painting is particularly relevant in a world where individuality is often suppressed by societal norms. It serves as a reminder of the need to resist this pressure in order to find one's own voice amidst the chaos."
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/red_dragon.jpg",
+      "title": "Red Dragon",
+      "description": [
+        {
+          "type": "header",
+          "content": "2025 | Acrylic, mixed media on canvas | 50х50сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "The red background, symbolizing danger, passion, and intensity, amplifies the sense of emotional tension. The black dragon represents the inner self, struggling with its own shadows, fears, and challenges. The raindrops scattered across the painting serve as a metaphor for cooling reality, a reminder that even the most intense anger is not eternal."
+        },
+        {
+          "type": "paragraph",
+          "content": "The painting resonates with the modern world, where people often feel powerless in the face of global problems—from social conflicts to personal crises. It encourages viewers to reflect on their response to external pressures: whether to let anger lead to destruction or channel it into transformation and forward movement."
+        },
+        {
+          "type": "paragraph",
+          "content": "The rain also hints at purification, the possibility of renewal after an emotional storm. Ultimately, the painting reminds us that clarity follows every tempest—if we are willing to endure it."
+        }
+      ]
+    },
+    {
       "image": "assets/images/art/forces_of_chaos.jpg",
       "title": "Forces of Chaos",
       "description": [
@@ -84,6 +124,28 @@
         {
           "type": "paragraph",
           "content": "Social networks and media create platforms where sacrifice and help become visible and appreciated. On the one hand, this spreads the message of altruism and inspires others to follow suit. On the other hand, it raises questions about the authenticity of motivations and the consequences of such control..."
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/the_thunderdance.jpg",
+      "title": "The Thunderdance",
+      "description": [
+        {
+          "type": "header",
+          "content": "2024 | Acrylic on canvas | 120х100сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "The painting symbolizes inner freedom and the art of living in harmony with chaos. The dragon, combining elements of both Eastern and Western traditions, serves as an allegory for the balance of opposites: strength and grace, destruction and creation. Its dance amidst stormy clouds represents the fearless acceptance of uncontrollable forces such as fear, change, or uncertainty."
+        },
+        {
+          "type": "paragraph",
+          "content": "Lightning, typically associated with danger and threat, becomes a dance partner,  emphasizing the idea of transforming fears into creative energy. The dragon revels in this chaos, turning the storm into its stage, highlighting the power of joy and creativity that emerges in the most challenging circumstances."
+        },
+        {
+          "type": "paragraph",
+          "content": "In today’s world, filled with instability and constant change, the painting holds particular relevance. It encourages us not to fight against life’s storms but to embrace them as a source of strength, inspiration, and even delight."
         }
       ]
     }
