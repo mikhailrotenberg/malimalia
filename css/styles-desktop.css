@@ -451,12 +451,6 @@ ul li {
 }
 
 /* ------------------------------------------- News page style ------------------------------------------- */
-/* color: #1d1d1b; Black
-color: #464646; Grey
-color: #feeee9; Rose
-color: #fdefe7; Beige
-color: #c29d5d; Brown
-color: #ffffff; White*/
 .news-section {
     margin: auto;
     padding: 10px;
@@ -505,5 +499,14 @@ color: #ffffff; White*/
 .news-text h3 {
     font-size: 22px;
     margin-bottom: 10px;
+    color: #c29d5d;
+}
+
+.news-a {
+    color: #fdefe7;
+    text-decoration: underline;
+}
+
+.news-a:hover {
     color: #c29d5d;
 }

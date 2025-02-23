@@ -275,7 +275,7 @@ footer {
 /* News */
 .news-item {
     flex-direction: column;
-    max-width: 90%;
+    align-items: center;
 }
 
 .news-image {
@@ -284,6 +284,34 @@ footer {
 }
 
 .news-text {
-    width: 100%;
-    text-align: center;
+    width: 85%; 
+    font-size: 1rem;
+    line-height: 1.4;
 }
+
+/*
+.gallery-description {
+    width: 100%; 
+    max-width: 100%;
+    padding: 2px;
+}
+
+.gallery-description h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-description h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-description p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.gallery-description ul {
+    list-style-type: disc;
+}*/
