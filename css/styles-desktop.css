@@ -39,12 +39,12 @@ section {
 }
 
 .tattoo {
-    font-size: 46px;
+    font-size: 66px;
     background-image: url('../assets/images/common/tattoo_bg_2.jpg');
     /* Path to your image */
     background-size: cover;
     /* Makes the image cover the entire screen */
-    background-position: center;
+    background-position: top;
     /* Centers the background image */
     background-repeat: no-repeat;
     /* Prevents the image from repeating */
@@ -56,12 +56,12 @@ section {
 }
 
 .art {
-    font-size: 46px;
-    background-image: url('../assets/images/common/art_background_1.jpg');
+    font-size: 66px;
+    background-image: url('../assets/images/common/art_background.jpg');
     /* Path to your image */
     background-size: cover;
     /* Makes the image cover the entire screen */
-    background-position: top;
+    background-position: center;
     /* Centers the background image */
     background-repeat: no-repeat;
     /* Prevents the image from repeating */

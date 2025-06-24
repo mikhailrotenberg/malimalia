@@ -45,11 +45,11 @@
     },
     {
       "image": "assets/images/art/magpies.jpg",
-      "title": "Magpies",
+      "title": "Magpies | Sold (in private collection)",
       "description": [
         {
           "type": "header",
-          "content": "2025 | Acrylic on canvas | 50х50сm"
+          "content": "2025 | Acrylic on canvas | 60х60сm"
         },
         {
           "type": "paragraph",
@@ -146,6 +146,64 @@
         {
           "type": "paragraph",
           "content": "In today’s world, filled with instability and constant change, the painting holds particular relevance. It encourages us not to fight against life’s storms but to embrace them as a source of strength, inspiration, and even delight."
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/priestess_of_the_threshold.jpg",
+      "title": "Priestess of the Threshold",
+      "description": [
+        {
+          "type": "header",
+          "content": "2018 | Mixed media on paper | 47х60сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "The image of a woman turned inward embodies the power of transition — between body and spirit, silence and knowledge. The golden crown with feathers evokes ancient priestesses and goddesses — keepers of truth, dreams, and stars."
+        },
+        {
+          "type": "paragraph",
+          "content": "She is not a muse, but a bearer of meaning. This is a vision of modern feminine power, rooted in myth yet speaking the language of the future."
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/sarah_jane.jpg",
+      "title": "Sarah Jane",
+      "description": [
+        {
+          "type": "header",
+          "content": "2018 | Mixed media on paper | 47х60сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "Sarah Jane, as in Causley’s poem, hovers between silence and speech, childhood and freedom. Her gaze holds a secret she won’t share — not out of cruelty, but because some truths are meant to be felt, not told."
+        },
+        {
+          "type": "paragraph",
+          "content": "The floating hair suggests wind and waves, an unseen journey already underway. The soft wrap evokes home and tenderness — things she carries but no longer clings to. She is the girl who leaves, not to escape, but to become."
+        },
+        {
+          "type": "paragraph",
+          "content": "We ask, “Tell me, tell me, Sarah Jane…” But the painting replies only with a half-smile. She knows. And she is already gone."
+        }
+      ]
+    },
+    {
+      "image": "assets/images/art/ether.jpg",
+      "title": "Ether",
+      "description": [
+        {
+          "type": "header",
+          "content": "2019 | Colored pencils on paper | 35х35сm"
+        },
+        {
+          "type": "paragraph",
+          "content": "In this image — the visage of a young woman emerges from an ephemeral cloud, as if woven from the breath of time itself. Her face echoes the graphic studies of Leonardo da Vinci: delicate lines, idealized proportions, a gaze lost in contemplative distance."
+        },
+        {
+          "type": "paragraph",
+          "content": "And yet, she is not merely a muse of the Renaissance. Her presence seems to rise from the void — like a memory, a prophecy, a mirage suspended between epochs."
         }
       ]
     }
